@@ -5,8 +5,6 @@
 #include <string>
 #include "angle.h"
 
-using namespace std;
-
 struct HorizontalPoint {
 
     Angle left_angle;
@@ -18,7 +16,7 @@ struct HorizontalPoint {
                                                                                            right_distance(
                                                                                                    right_distance) {}
 
-    string to_string();
+    std::string to_string();
 
 };
 

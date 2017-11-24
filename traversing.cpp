@@ -2,9 +2,9 @@
 #include <cmath>
 #include "traversing.h"
 
-TraversingSolution Traverser::solve(Point a, Angle a_azimuth, const vector<HorizontalPoint> &horizontal_points) {
+TraversingSolution Traverser::solve(Point a, Angle a_azimuth, const std::vector<HorizontalPoint> &horizontal_points) {
 
-    TraversingSolution ts;
+    TraversingSolution ts = TraversingSolution();
 
     ts.internal_angles.reserve(horizontal_points.size());
     for (auto &horizontal_point : horizontal_points) {
@@ -35,12 +35,12 @@ TraversingSolution Traverser::solve(Point a, Angle a_azimuth, const vector<Horiz
         ts.delta_y.push_back(horizontal_points[i].right_distance * cos(M_PI * ts.azimuths[i].to_decimal() / 180));
     }
 
-    ts.sum_delta_x = accumulate(ts.delta_x.begin(), ts.delta_x.end(), 0.0);
-    ts.sum_delta_y = accumulate(ts.delta_y.begin(), ts.delta_y.end(), 0.0);
+    ts.sum_delta_x = std::accumulate(ts.delta_x.begin(), ts.delta_x.end(), 0.0);
+    ts.sum_delta_y = std::accumulate(ts.delta_y.begin(), ts.delta_y.end(), 0.0);
 
     ts.linear_misclosure_w = sqrt(pow(ts.sum_delta_x, 2) + pow(ts.sum_delta_y, 2));
-    ts.total_length = accumulate(horizontal_points.begin(), horizontal_points.end(), 0.0,
-                                 [](double x, HorizontalPoint y) { return x + y.right_distance; });
+    ts.total_length = std::accumulate(horizontal_points.begin(), horizontal_points.end(), 0.0,
+                                      [](double x, HorizontalPoint y) { return x + y.right_distance; });
     ts.relative_precision = ts.linear_misclosure_w / ts.total_length;
 
     ts.corrected_x = ts.sum_delta_x / ts.total_length;

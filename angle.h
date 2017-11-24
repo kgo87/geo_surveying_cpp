@@ -4,8 +4,6 @@
 
 #include <string>
 
-using namespace std;
-
 struct Angle {
 
     int degree;
@@ -32,7 +30,7 @@ struct Angle {
 
     double to_decimal() const;
 
-    string to_string();
+    std::string to_string();
 
 };
 

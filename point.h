@@ -4,8 +4,6 @@
 
 #include <string>
 
-using namespace std;
-
 static const double EPSILON = 1E-6;
 
 struct Point {
@@ -17,7 +15,7 @@ struct Point {
 
     bool operator==(const Point &other) const;
 
-    string to_string();
+    std::string to_string();
 
 };
 

@@ -1,5 +1,5 @@
 #include "horizontal_point.h"
 
-string HorizontalPoint::to_string() {
+std::string HorizontalPoint::to_string() {
     return std::string();
 }

@@ -8,12 +8,10 @@
 #include "angle.h"
 #include "horizontal_point.h"
 
-using namespace std;
-
 class Traverser {
 
 public:
-    TraversingSolution solve(Point a, Angle a_azimuth, const vector<HorizontalPoint> &horizontal_points);
+    TraversingSolution solve(Point a, Angle a_azimuth, const std::vector<HorizontalPoint> &horizontal_points);
 };
 
 

@@ -3,8 +3,8 @@
 #include "angle.h"
 
 std::string Angle::to_string() {
-    stringstream out;
-    out << fixed << setprecision(4) << seconds;
+    std::stringstream out;
+    out << std::fixed << std::setprecision(4) << seconds;
     return std::to_string(degree) + "˚" + std::to_string(minutes) + "'" + out.str() + "\"";
 }
 

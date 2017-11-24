@@ -1,107 +1,95 @@
-#include <sstream>
-#include <iomanip>
 #include "traversing_solution.h"
+#include "printer.h"
 
-using namespace std;
+std::string TraversingSolution::to_string() {
+    StringPrinter p;
 
-void println(stringstream &out) {
-    out << endl;
-}
+    p.println();
+    p.println("===== TRAVERSING =====");
+    p.println();
 
-void println(stringstream &out, double d) {
-    out << fixed << setprecision(4) << d << endl;
-}
-
-template<typename T>
-void println(stringstream &out, T t) {
-    out << t << endl;
-}
-
-string TraversingSolution::to_string() {
-    stringstream out;
-
-    println(out, "Internal Angles:");
+    p.println("Internal Angles:");
     for (auto &internal_angle : internal_angles) {
-        println(out, internal_angle.to_string());
+        p.println(internal_angle.to_string());
     }
 
-    println(out);
-    println(out, "Geometrical Sum:");
-    println(out, geometrical_sum.to_string());
+    p.println();
+    p.println("Geometrical Sum:");
+    p.println(geometrical_sum.to_string());
 
-    println(out);
-    println(out, "Measured Sum:");
-    println(out, measured_sum.to_string());
+    p.println();
+    p.println("Measured Sum:");
+    p.println(measured_sum.to_string());
 
-    println(out);
-    println(out, "Misclosure:");
-    println(out, misclosure.to_string());
+    p.println();
+    p.println("Misclosure:");
+    p.println(misclosure.to_string());
 
-    println(out);
-    println(out, "Distributed Misclosure:");
-    println(out, distributed_misclosure.to_string());
+    p.println();
+    p.println("Distributed Misclosure:");
+    p.println(distributed_misclosure.to_string());
 
-    println(out);
-    println(out, "Corrected Internal Angles:");
+    p.println();
+    p.println("Corrected Internal Angles:");
     for (auto &corrected_internal_angle : corrected_internal_angles) {
-        println(out, corrected_internal_angle.to_string());
+        p.println(corrected_internal_angle.to_string());
     }
 
-    println(out);
-    println(out, "Azimuths:");
+    p.println();
+    p.println("Azimuths:");
     for (auto &azimuth : azimuths) {
-        println(out, azimuth.to_string());
+        p.println(azimuth.to_string());
     }
 
-    println(out);
-    println(out, "∆X:");
+    p.println();
+    p.println("∆X:");
     for (auto &x : delta_x) {
-        println(out, x);
+        p.println(x);
     }
 
-    println(out);
-    println(out, "∆Y:");
+    p.println();
+    p.println("∆Y:");
     for (auto &y : delta_y) {
-        println(out, y);
+        p.println(y);
     }
 
-    println(out);
-    println(out, "∑∆X:");
-    println(out, sum_delta_x);
+    p.println();
+    p.println("∑∆X:");
+    p.println(sum_delta_x);
 
-    println(out);
-    println(out, "∑∆Y:");
-    println(out, sum_delta_y);
+    p.println();
+    p.println("∑∆Y:");
+    p.println(sum_delta_y);
 
-    println(out);
-    println(out, "W (Linear Misclosure):");
-    println(out, linear_misclosure_w);
+    p.println();
+    p.println("W (Linear Misclosure):");
+    p.println(linear_misclosure_w);
 
-    println(out);
-    println(out, "Total Length:");
-    println(out, total_length);
+    p.println();
+    p.println("Total Length:");
+    p.println(total_length);
 
-    println(out);
-    println(out, "Relative Precision:");
-    println(out, relative_precision);
+    p.println();
+    p.println("Relative Precision:");
+    p.println(relative_precision);
 
-    println(out);
-    println(out, "Corrected X:");
-    println(out, corrected_x);
+    p.println();
+    p.println("Corrected X:");
+    p.println(corrected_x);
 
-    println(out);
-    println(out, "Corrected Y:");
-    println(out, corrected_y);
+    p.println();
+    p.println("Corrected Y:");
+    p.println(corrected_y);
 
-    println(out);
-    println(out, "Check:");
-    println(out, check);
+    p.println();
+    p.println("Check:");
+    p.println(check);
 
-    println(out);
-    println(out, "Points:");
+    p.println();
+    p.println("Points:");
     for (auto &point : points) {
-        println(out, point.to_string());
+        p.println(point.to_string());
     }
 
-    return out.str();
+    return p.str();
 }
