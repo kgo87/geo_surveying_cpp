@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Workspace
+   version = "1.0">
+   <FileRef
+      location = "group:../angle.cpp">
+   </FileRef>
+   <FileRef
+      location = "group:../angle.h">
+   </FileRef>
+   <FileRef
+      location = "group:../CMakeLists.txt">
+   </FileRef>
+   <FileRef
+      location = "group:../horizontal_point.cpp">
+   </FileRef>
+   <FileRef
+      location = "group:../horizontal_point.h">
+   </FileRef>
+   <FileRef
+      location = "group:../main.cpp">
+   </FileRef>
+   <FileRef
+      location = "group:../point.cpp">
+   </FileRef>
+   <FileRef
+      location = "group:../point.h">
+   </FileRef>
+   <FileRef
+      location = "group:../printer.cpp">
+   </FileRef>
+   <FileRef
+      location = "group:../printer.h">
+   </FileRef>
+   <FileRef
+      location = "group:../sight_height.cpp">
+   </FileRef>
+   <FileRef
+      location = "group:../sight_height.h">
+   </FileRef>
+   <FileRef
+      location = "group:../sight_point.cpp">
+   </FileRef>
+   <FileRef
+      location = "group:../sight_point.h">
+   </FileRef>
+   <FileRef
+      location = "group:../three_wire_levelling_solution.cpp">
+   </FileRef>
+   <FileRef
+      location = "group:../three_wire_levelling_solution.h">
+   </FileRef>
+   <FileRef
+      location = "group:../three_wire_levelling.cpp">
+   </FileRef>
+   <FileRef
+      location = "group:../three_wire_levelling.h">
+   </FileRef>
+   <FileRef
+      location = "group:../traversing_solution.cpp">
+   </FileRef>
+   <FileRef
+      location = "group:../traversing_solution.h">
+   </FileRef>
+   <FileRef
+      location = "group:../traversing.cpp">
+   </FileRef>
+   <FileRef
+      location = "group:../traversing.h">
+   </FileRef>
+   <FileRef
+      location = "self:">
+   </FileRef>
+</Workspace>

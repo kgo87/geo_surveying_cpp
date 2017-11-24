@@ -1,0 +1,333 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		3474FCD01FC7C2B300F54F9A /* traversing.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 3474FCB71FC7C18F00F54F9A /* traversing.cpp */; };
+		3474FCD11FC7C2B300F54F9A /* printer.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 3474FCAF1FC7C18F00F54F9A /* printer.cpp */; };
+		3474FCD21FC7C2B300F54F9A /* point.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 3474FCC31FC7C19100F54F9A /* point.cpp */; };
+		3474FCD31FC7C2B300F54F9A /* angle.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 3474FCB61FC7C18F00F54F9A /* angle.cpp */; };
+		3474FCD41FC7C2B300F54F9A /* sight_height.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 3474FCB31FC7C18F00F54F9A /* sight_height.cpp */; };
+		3474FCD51FC7C2B300F54F9A /* sight_point.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 3474FCC11FC7C19000F54F9A /* sight_point.cpp */; };
+		3474FCD61FC7C2B300F54F9A /* three_wire_levelling.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 3474FCBD1FC7C19000F54F9A /* three_wire_levelling.cpp */; };
+		3474FCD71FC7C2B300F54F9A /* horizontal_point.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 3474FCB51FC7C18F00F54F9A /* horizontal_point.cpp */; };
+		3474FCD81FC7C2B300F54F9A /* traversing_solution.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 3474FCBF1FC7C19000F54F9A /* traversing_solution.cpp */; };
+		3474FCD91FC7C2B300F54F9A /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 3474FCAE1FC7C18F00F54F9A /* main.cpp */; };
+		3474FCDA1FC7C2B300F54F9A /* three_wire_levelling_solution.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 3474FCB11FC7C18F00F54F9A /* three_wire_levelling_solution.cpp */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		3474FCC61FC7C29600F54F9A /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		3474FCAE1FC7C18F00F54F9A /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = SOURCE_ROOT; };
+		3474FCAF1FC7C18F00F54F9A /* printer.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = printer.cpp; sourceTree = "<group>"; };
+		3474FCB01FC7C18F00F54F9A /* CMakeLists.txt */ = {isa = PBXFileReference; lastKnownFileType = text; path = CMakeLists.txt; sourceTree = "<group>"; };
+		3474FCB11FC7C18F00F54F9A /* three_wire_levelling_solution.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = three_wire_levelling_solution.cpp; sourceTree = "<group>"; };
+		3474FCB21FC7C18F00F54F9A /* traversing_solution.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.h; path = traversing_solution.h; sourceTree = "<group>"; };
+		3474FCB31FC7C18F00F54F9A /* sight_height.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = sight_height.cpp; sourceTree = "<group>"; };
+		3474FCB41FC7C18F00F54F9A /* point.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = point.h; sourceTree = "<group>"; };
+		3474FCB51FC7C18F00F54F9A /* horizontal_point.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = horizontal_point.cpp; sourceTree = "<group>"; };
+		3474FCB61FC7C18F00F54F9A /* angle.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = angle.cpp; sourceTree = "<group>"; };
+		3474FCB71FC7C18F00F54F9A /* traversing.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = traversing.cpp; sourceTree = "<group>"; };
+		3474FCB81FC7C18F00F54F9A /* traversing.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.h; path = traversing.h; sourceTree = "<group>"; };
+		3474FCB91FC7C19000F54F9A /* horizontal_point.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = horizontal_point.h; sourceTree = "<group>"; };
+		3474FCBA1FC7C19000F54F9A /* sight_height.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = sight_height.h; sourceTree = "<group>"; };
+		3474FCBB1FC7C19000F54F9A /* sight_point.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = sight_point.h; sourceTree = "<group>"; };
+		3474FCBC1FC7C19000F54F9A /* angle.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = angle.h; sourceTree = "<group>"; };
+		3474FCBD1FC7C19000F54F9A /* three_wire_levelling.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = three_wire_levelling.cpp; sourceTree = "<group>"; };
+		3474FCBE1FC7C19000F54F9A /* three_wire_levelling.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = three_wire_levelling.h; sourceTree = "<group>"; };
+		3474FCBF1FC7C19000F54F9A /* traversing_solution.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = traversing_solution.cpp; sourceTree = "<group>"; };
+		3474FCC01FC7C19000F54F9A /* three_wire_levelling_solution.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = three_wire_levelling_solution.h; sourceTree = "<group>"; };
+		3474FCC11FC7C19000F54F9A /* sight_point.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = sight_point.cpp; sourceTree = "<group>"; };
+		3474FCC21FC7C19100F54F9A /* printer.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = printer.h; sourceTree = "<group>"; };
+		3474FCC31FC7C19100F54F9A /* point.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = point.cpp; sourceTree = "<group>"; };
+		3474FCC81FC7C29600F54F9A /* main */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = main; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		3474FCC51FC7C29600F54F9A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		3474FCA71FC7C0F500F54F9A = {
+			isa = PBXGroup;
+			children = (
+				3474FCDB1FC7C32800F54F9A /* main */,
+				3474FCC91FC7C29600F54F9A /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		3474FCC91FC7C29600F54F9A /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				3474FCC81FC7C29600F54F9A /* main */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		3474FCDB1FC7C32800F54F9A /* main */ = {
+			isa = PBXGroup;
+			children = (
+				3474FCB61FC7C18F00F54F9A /* angle.cpp */,
+				3474FCBC1FC7C19000F54F9A /* angle.h */,
+				3474FCB01FC7C18F00F54F9A /* CMakeLists.txt */,
+				3474FCB51FC7C18F00F54F9A /* horizontal_point.cpp */,
+				3474FCB91FC7C19000F54F9A /* horizontal_point.h */,
+				3474FCAE1FC7C18F00F54F9A /* main.cpp */,
+				3474FCC31FC7C19100F54F9A /* point.cpp */,
+				3474FCB41FC7C18F00F54F9A /* point.h */,
+				3474FCAF1FC7C18F00F54F9A /* printer.cpp */,
+				3474FCC21FC7C19100F54F9A /* printer.h */,
+				3474FCB31FC7C18F00F54F9A /* sight_height.cpp */,
+				3474FCBA1FC7C19000F54F9A /* sight_height.h */,
+				3474FCC11FC7C19000F54F9A /* sight_point.cpp */,
+				3474FCBB1FC7C19000F54F9A /* sight_point.h */,
+				3474FCB11FC7C18F00F54F9A /* three_wire_levelling_solution.cpp */,
+				3474FCC01FC7C19000F54F9A /* three_wire_levelling_solution.h */,
+				3474FCBD1FC7C19000F54F9A /* three_wire_levelling.cpp */,
+				3474FCBE1FC7C19000F54F9A /* three_wire_levelling.h */,
+				3474FCBF1FC7C19000F54F9A /* traversing_solution.cpp */,
+				3474FCB21FC7C18F00F54F9A /* traversing_solution.h */,
+				3474FCB71FC7C18F00F54F9A /* traversing.cpp */,
+				3474FCB81FC7C18F00F54F9A /* traversing.h */,
+			);
+			name = main;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		3474FCC71FC7C29600F54F9A /* main */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3474FCCD1FC7C29600F54F9A /* Build configuration list for PBXNativeTarget "main" */;
+			buildPhases = (
+				3474FCC41FC7C29600F54F9A /* Sources */,
+				3474FCC51FC7C29600F54F9A /* Frameworks */,
+				3474FCC61FC7C29600F54F9A /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = main;
+			productName = main;
+			productReference = 3474FCC81FC7C29600F54F9A /* main */;
+			productType = "com.apple.product-type.tool";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		3474FCA81FC7C0F500F54F9A /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0910;
+				TargetAttributes = {
+					3474FCC71FC7C29600F54F9A = {
+						CreatedOnToolsVersion = 9.1;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = 3474FCAB1FC7C0F500F54F9A /* Build configuration list for PBXProject "geo_surveying_cpp" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 3474FCA71FC7C0F500F54F9A;
+			productRefGroup = 3474FCC91FC7C29600F54F9A /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				3474FCC71FC7C29600F54F9A /* main */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		3474FCC41FC7C29600F54F9A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3474FCD61FC7C2B300F54F9A /* three_wire_levelling.cpp in Sources */,
+				3474FCD81FC7C2B300F54F9A /* traversing_solution.cpp in Sources */,
+				3474FCD41FC7C2B300F54F9A /* sight_height.cpp in Sources */,
+				3474FCDA1FC7C2B300F54F9A /* three_wire_levelling_solution.cpp in Sources */,
+				3474FCD21FC7C2B300F54F9A /* point.cpp in Sources */,
+				3474FCD91FC7C2B300F54F9A /* main.cpp in Sources */,
+				3474FCD71FC7C2B300F54F9A /* horizontal_point.cpp in Sources */,
+				3474FCD01FC7C2B300F54F9A /* traversing.cpp in Sources */,
+				3474FCD51FC7C2B300F54F9A /* sight_point.cpp in Sources */,
+				3474FCD11FC7C2B300F54F9A /* printer.cpp in Sources */,
+				3474FCD31FC7C2B300F54F9A /* angle.cpp in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		3474FCAC1FC7C0F500F54F9A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+			};
+			name = Debug;
+		};
+		3474FCAD1FC7C0F500F54F9A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+			};
+			name = Release;
+		};
+		3474FCCE1FC7C29600F54F9A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				CODE_SIGN_STYLE = Automatic;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.13;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		3474FCCF1FC7C29600F54F9A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				CODE_SIGN_STYLE = Automatic;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.13;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		3474FCAB1FC7C0F500F54F9A /* Build configuration list for PBXProject "geo_surveying_cpp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3474FCAC1FC7C0F500F54F9A /* Debug */,
+				3474FCAD1FC7C0F500F54F9A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3474FCCD1FC7C29600F54F9A /* Build configuration list for PBXNativeTarget "main" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3474FCCE1FC7C29600F54F9A /* Debug */,
+				3474FCCF1FC7C29600F54F9A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 3474FCA81FC7C0F500F54F9A /* Project object */;
+}
